@@ -1,0 +1,90 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+td, th{
+    border: 2px solid black;
+    font-size: x-small;
+}
+
+tr, p{
+    font-weight: 200;
+}
+
+
+.school-logo{
+    width: 80px;
+    height: 80px;
+    padding-top: 20px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.div2 p{
+    text-align: center;
+    font-weight: bolder;
+    line-height: 4px;
+}
+.p-same{
+    font-size: small;
+}
+.p2{
+    font-size: xx-small;
+}
+
+.rotate{
+    writing-mode: vertical-rl;
+    rotate: 180deg;
+}
+.rating p{
+    line-height: 18px;
+    margin-top: -40px;
+}
+.gradekey-text span{
+    margin-left: 30px;
+}
+.gradekey-text p{
+   text-align: center;
+}
+
+.grades{
+    line-height: 9.5px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+}
+
+.deep-second{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    line-height: -5px;
+}
+
+p.red + p{
+    margin-top: -5px;
+}
+
+.official p{
+    text-align: center;
+    margin-top: -50px;
+}
+
+.student-content{
+    line-height: 8px;
+    margin-top: -100px;
+}
+
+.top-spot{
+    font-weight: bold;
+    margin-top: -50px;
+}
