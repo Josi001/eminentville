@@ -3,7 +3,6 @@ table{
     border-collapse: collapse;
 }
 
-
 td, th{
     border: 2px solid black;
     font-size: x-small;
@@ -87,4 +86,15 @@ p.red + p{
 .top-spot{
     font-weight: bold;
     margin-top: -50px;
+}
+
+@media print{
+
+    @page{
+        size: landscape;
+    }
+
+    .student-content{
+        margin-top: -10px;
+    }
 }
